@@ -1,24 +1,66 @@
-# README
+# Contacts API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple contacts book REST API.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-* System dependencies
+To help run in terminal:
+```
+make help
+```
 
-* Configuration
+### Prerequisites
 
-* Database creation
+Before all, you need to have Ruby installed in your computer. You can use [RVM](https://rvm.io/rvm/install) or [Rbenv](https://github.com/rbenv/rbenv).
+Besides this, you need to have the gem Bundler installed. To install, run in terminal:
+```
+gem install bundler
+```
 
-* Database initialization
+### Installing
 
-* How to run the test suite
+After clone, run in terminal:
+```
+make setup
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Running the tests
 
-* Deployment instructions
+Run in terminal:
+```
+make test
+```
 
-* ...
+For automated tests in dev, run:
+```
+make auto-test
+```
+
+## Deployment
+
+Not yet done
+
+## Built With
+* [Ruby](https://www.ruby-lang.org/)
+* [RubyOnRails](http://rubyonrails.org/)
+* [Rspec](http://rspec.info/)
+* [Guard](https://github.com/guard/guard)
+* [FactoryBot](https://github.com/thoughtbot/factory_bot_rails)
+* [Faker](https://github.com/stympy/faker)
+* [DatabaseCleaner](https://github.com/DatabaseCleaner/database_cleaner)
+* [SimpleCov](https://github.com/colszowka/simplecov)
+* [ShouldaMatchers](https://github.com/thoughtbot/shoulda-matchers)
+
+## Contributing
+
+Only have to fork the project and make a pull request.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning.
+
+## License
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).

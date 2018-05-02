@@ -32,6 +32,7 @@ group :development, :test do
   gem 'factory_bot_rails'
   gem 'guard'
   gem 'guard-rspec'
+  gem 'faker'
 end
 
 group :development do
@@ -44,7 +45,6 @@ end
 group :test do
   gem 'shoulda-matchers', '~> 3.1'
   gem 'database_cleaner'
-  gem 'faker'
   gem 'simplecov', :require => false
 end
 
